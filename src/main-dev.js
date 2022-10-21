@@ -16,7 +16,7 @@ import 'quill/dist/quill.bubble.css' // for bubble theme
 
 // 配置axios
 import axios from 'axios'
-axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
+axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/'
 // 设置请求拦截器
 axios.interceptors.request.use(config => {
   NProgress.start()
